@@ -10,7 +10,7 @@ class Fibonachi_iter:
         self.t1 = 0
         self.t2 = 0
         self.t3 = 1
-        self.counter = 0
+
 
     def __next__(self):
         for i in range(range_):
@@ -19,7 +19,7 @@ class Fibonachi_iter:
             self.t1 = self.t2
             self.t2 = self.t3
             self.t3 = sum1
-            #return
+
         else:
             raise StopIteration
 
