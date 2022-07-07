@@ -1,10 +1,8 @@
 
-
-
-
 range_ = int(input("Ведите количество элементов последовательности :"))
 
 #простая реализация
+print("#простая реализация")
 t1 = 0
 t2 = 0
 t3 = 1
@@ -19,6 +17,7 @@ for i in range(range1):
 print("********************************")
 
 # реализация через список
+print("# реализация через список")
 start = [0, 0, 1]
 range2 = range_
 
@@ -31,7 +30,7 @@ print(start)
 print("********************************")
 
 # реализация генератором
-
+print("# реализация генератором")
 range3 = range_
 def tribonacci_gener(range_3):
     t1, t2, t3 = 0, 0, 1  # start
@@ -42,3 +41,4 @@ def tribonacci_gener(range_3):
 t = tribonacci_gener(range3)
 for i in range(range3-1):
     print(next(t))
+print( "*******************************")
