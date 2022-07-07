@@ -1,7 +1,7 @@
 from Simple_generator_triponacchi import range_
 
 
-class Fibonachi_iter:
+class Tribonachi_iter:
     def __iter__(self):
         return self
 
@@ -24,7 +24,7 @@ class Fibonachi_iter:
             raise StopIteration
 
 print("реализачия через экземпляр класса")
-iter = Fibonachi_iter(range_)
+iter = Tribonachi_iter(range_)
 for i in iter:
     print(i)
 
