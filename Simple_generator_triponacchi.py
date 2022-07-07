@@ -40,5 +40,5 @@ def tribonacci_gener(range_3):
         yield t1
 #выззов tribonacci_gener
 t = tribonacci_gener(range3)
-for i in range(9):
+for i in range(range3-1):
     print(next(t))
